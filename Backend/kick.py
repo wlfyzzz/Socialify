@@ -1,6 +1,6 @@
 import requests
 import json
-import re  # Import the regular expression module
+import re
 
 
 def getKick(username):
@@ -19,14 +19,11 @@ def getKick(username):
         try:
             json_data = response.json()
             if json_data.get("status") == "ok":
-                # Extract the JSON string from the HTML response
                 html_response = json_data["solution"]["response"]
-
-                # Use a regular expression to find the JSON string within the HTML
-                match = re.search(r"<body>(.*?)</body>", html_response)  # Corrected regex
+                match = re.search(r"<body>(.*?)</body>", html_response)
 
                 if match:
-                    json_string = match.group(1)  # Extract the captured group (the JSON)
+                    json_string = match.group(1)
                     try:
                         extracted_data = json.loads(json_string)
                         print("[Kick] Got data for user")
@@ -36,9 +33,9 @@ def getKick(username):
                 else:
                     return {"error": "Invalid user or user does not exist on kick api."}
             else:
-              return []
+                return []
         except json.JSONDecodeError as e:
-          return []
+            return []
 
     except requests.exceptions.RequestException as e:
         return []
