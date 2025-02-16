@@ -51,14 +51,22 @@ Socialify is a powerful and flexible open-source Discord bot designed to enhance
 4.  **Configure the bot:**
 
     *   Edit both configurations in `/Backend/config.json` and `/Bot/config.json` and fill it with the required information it needs .
+5. **Start up flaresolver for kick notifications**
+   ```bash
+    docker run -d \
+  --name=flaresolverr \
+  -p 8191:8191 \
+  -e LOG_LEVEL=info \
+  --restart unless-stopped \
+  ghcr.io/flaresolverr/flaresolverr:latest```
 
-5.  **Run the backend service:**
+7.  **Run the backend service:**
 
     ```bash
     cd Backend
     python3 backend.py
     ```
-6.  **Run the Bot:**
+8.  **Run the Bot:**
 
     ```bash
     cd Bot
