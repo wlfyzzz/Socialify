@@ -28,7 +28,7 @@ cache = {}
 @bot.event
 async def on_ready():
     print(f"Logged in as {bot.user.name} ({bot.user.id})")
-    my_task.start()
+    fetch.start()
 
 
 def create_embed(
@@ -71,7 +71,7 @@ class LinkButton(Button):
 
 
 @tasks.loop(seconds=10)
-async def my_task():
+async def fetch():
     global cache
     response = supabase.table("data").select("*").execute()
     data = response.data
