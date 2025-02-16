@@ -74,7 +74,7 @@ def isLiveTwitch(username):
   response = requests.get(url, headers=headers)
   url = f"https://gwyo-twitch.p.rapidapi.com/preview/{username}/350/200"
 
-  headers = {"x-rapidapi-key":"75e6c0e1e2mshd90962ce1a87fcdp17225bjsndffdfda29565","x-rapidapi-host": "gwyo-twitch.p.rapidapi.com"}
+  headers = {"x-rapidapi-key": TWITCH_API_KEY,"x-rapidapi-host": "gwyo-twitch.p.rapidapi.com"}
   if response.status_code == 200 and response.json() != {}:
     data[username] = response.json()
 
