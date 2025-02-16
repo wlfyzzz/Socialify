@@ -45,7 +45,7 @@ Socialify is a powerful and flexible open-source Discord bot designed to enhance
 3.  **Install dependencies:**
 
     ```bash
-    pip install flask twikit nextcord
+    pip install flask twikit nextcord supabase
     ```
 
 4.  **Configure the bot:**
