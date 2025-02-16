@@ -54,11 +54,11 @@ Socialify is a powerful and flexible open-source Discord bot designed to enhance
 5. **Start up flaresolver for kick notifications**
    ```bash
     docker run -d \
-  --name=flaresolverr \
-  -p 8191:8191 \
-  -e LOG_LEVEL=info \
-  --restart unless-stopped \
-  ghcr.io/flaresolverr/flaresolverr:latest```
+   --name=flaresolverr \
+   -p 8191:8191 \
+   -e LOG_LEVEL=info \
+   --restart unless-stopped \
+   ghcr.io/flaresolverr/flaresolverr:latest```
 
 7.  **Run the backend service:**
 
