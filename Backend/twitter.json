@@ -1,0 +1,178 @@
+{
+    "tiktok": {},
+    "twitter": {},
+    "youtube": {},
+    "twitch": {
+        "recordwasbored": {
+            "live": true,
+            "title": "ER:LC + EMERGENCY HAMBURG MIXED TOGETHER",
+            "timestamp": 1739500759.3960948,
+            "username": "recordwasbored",
+            "preview": "https://static-cdn.jtvnw.net/previews-ttv/live_user_recordwasbored-350x200.jpg"
+        },
+        "bigpuffer": {
+            "live": true,
+            "title": "it's been awhile !bldblz",
+            "timestamp": 1739674046.7460432,
+            "username": "bigpuffer",
+            "preview": "https://static-cdn.jtvnw.net/previews-ttv/live_user_bigpuffer-350x200.jpg"
+        }
+    },
+    "kick": {
+        "aeroverra": {
+            "user": {
+                "id": 1078798,
+                "user_id": 1118182,
+                "slug": "aeroverra",
+                "is_banned": false,
+                "playback_url": "https://fa723fc1b171.us-west-2.playback.live-video.net/api/video/v1/us-west-2.196233775518.channel.bY4k07prpwRj.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJFUzM4NCJ9.eyJhd3M6Y2hhbm5lbC1hcm4iOiJhcm46YXdzOml2czp1cy13ZXN0LTI6MTk2MjMzNzc1NTE4OmNoYW5uZWwvYlk0azA3cHJwd1JqIiwiYXdzOmFjY2Vzcy1jb250cm9sLWFsbG93LW9yaWdpbiI6Imh0dHBzOi8va2ljay5jb20saHR0cHM6Ly93d3cuZ3N0YXRpYy5jb20saHR0cHM6Ly8qLmtpY2subGl2ZSxodHRwczovL3BsYXllci5raWNrLmNvbSxodHRwczovL2FkbWluLmtpY2suY29tLGh0dHBzOi8vYmV0YS5raWNrLmNvbSxodHRwczovL25leHQua2ljay5jb20saHR0cHM6Ly9kYXNoYm9hcmQua2ljay5jb20saHR0cHM6Ly8qLnByZXZpZXcua2ljay5jb20iLCJhd3M6c3RyaWN0LW9yaWdpbi1lbmZvcmNlbWVudCI6ZmFsc2UsImV4cCI6MTczOTQ5OTc4N30.w0hpqqvPI5QI2mV71bnNBsAgLCLQA40rSIB8I7RMYYF9LYg3X8z3jrRQ3cLDu18B7s6uPCfp5W69AOCJ678UzfsIK2LXjx8EjHT3ZH_QgtOJQNDIW-4rA_XCr35zn90u",
+                "vod_enabled": true,
+                "subscription_enabled": true,
+                "is_affiliate": false,
+                "followers_count": 661,
+                "subscriber_badges": [],
+                "livestream": {
+                    "id": 48973156,
+                    "slug": "01778730-lofi-kickcom-firehose-anti-spam-working-alerts-free",
+                    "channel_id": 1078798,
+                    "created_at": "2025-02-14 01:05:21",
+                    "session_title": "Lofi - Kick.com !Firehose | Anti Spam | Working Alerts! | FREE",
+                    "is_live": true,
+                    "risk_level_id": null,
+                    "start_time": "2025-02-14 01:05:18",
+                    "source": null,
+                    "twitch_channel": null,
+                    "duration": 0,
+                    "language": "English",
+                    "is_mature": false,
+                    "viewer_count": 2,
+                    "viewer_count_ws": 3,
+                    "thumbnail": {
+                        "url": "https://stream.kick.com/thumbnails/livestream/48973156/thumb0/video_thumbnail/thumb0.jpg"
+                    },
+                    "categories": [
+                        {
+                            "id": 246,
+                            "category_id": 3,
+                            "name": "Music Stations\u00a0",
+                            "slug": "music-stations",
+                            "tags": [
+                                "Music"
+                            ],
+                            "description": null,
+                            "deleted_at": null,
+                            "viewers": 479,
+                            "is_mature": false,
+                            "viewers_ws": 189,
+                            "category": {
+                                "id": 3,
+                                "name": "Music",
+                                "slug": "music",
+                                "icon": "\ud83c\udfb9"
+                            }
+                        }
+                    ],
+                    "tags": []
+                },
+                "role": null,
+                "muted": false,
+                "follower_badges": [],
+                "offline_banner_image": null,
+                "verified": false,
+                "recent_categories": [
+                    {
+                        "id": 246,
+                        "category_id": 3,
+                        "name": "Music Stations\u00a0",
+                        "slug": "music-stations",
+                        "tags": [
+                            "Music"
+                        ],
+                        "description": null,
+                        "deleted_at": null,
+                        "viewers": 479,
+                        "is_mature": false,
+                        "viewers_ws": 189,
+                        "banner": {
+                            "responsive": "https://files.kick.com/images/subcategories/246/banner/responsives/aed1856e-a4c2-4d66-9e6d-439db331d922___banner_600_800.webp 600w, https://files.kick.com/images/subcategories/246/banner/responsives/aed1856e-a4c2-4d66-9e6d-439db331d922___banner_501_668.webp 501w, https://files.kick.com/images/subcategories/246/banner/responsives/aed1856e-a4c2-4d66-9e6d-439db331d922___banner_420_560.webp 420w, https://files.kick.com/images/subcategories/246/banner/responsives/aed1856e-a4c2-4d66-9e6d-439db331d922___banner_351_468.webp 351w, https://files.kick.com/images/subcategories/246/banner/responsives/aed1856e-a4c2-4d66-9e6d-439db331d922___banner_294_392.webp 294w, https://files.kick.com/images/subcategories/246/banner/responsives/aed1856e-a4c2-4d66-9e6d-439db331d922___banner_245_327.webp 245w, data:image/svg+xml;base64,PCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHg9IjAiCiB5PSIwIiB2aWV3Qm94PSIwIDAgNjAwIDgwMCI+Cgk8aW1hZ2Ugd2lkdGg9IjYwMCIgaGVpZ2h0PSI4MDAiIHhsaW5rOmhyZWY9ImRhdGE6aW1hZ2UvanBlZztiYXNlNjQsLzlqLzRBQVFTa1pKUmdBQkFRRUFZQUJnQUFELy9nQTdRMUpGUVZSUFVqb2daMlF0YW5CbFp5QjJNUzR3SUNoMWMybHVaeUJKU2tjZ1NsQkZSeUIyT0RBcExDQnhkV0ZzYVhSNUlEMGdPVEFLLzlzQVF3QURBZ0lEQWdJREF3TURCQU1EQkFVSUJRVUVCQVVLQndjR0NBd0tEQXdMQ2dzTERRNFNFQTBPRVE0TEN4QVdFQkVURkJVVkZRd1BGeGdXRkJnU0ZCVVUvOXNBUXdFREJBUUZCQVVKQlFVSkZBMExEUlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVS84QUFFUWdBS3dBZ0F3RWlBQUlSQVFNUkFmL0VBQjhBQUFFRkFRRUJBUUVCQUFBQUFBQUFBQUFCQWdNRUJRWUhDQWtLQy8vRUFMVVFBQUlCQXdNQ0JBTUZCUVFFQUFBQmZRRUNBd0FFRVFVU0lURkJCaE5SWVFjaWNSUXlnWkdoQ0NOQ3NjRVZVdEh3SkROaWNvSUpDaFlYR0JrYUpTWW5LQ2txTkRVMk56ZzVPa05FUlVaSFNFbEtVMVJWVmxkWVdWcGpaR1ZtWjJocGFuTjBkWFozZUhsNmc0U0Zob2VJaVlxU2s1U1ZscGVZbVpxaW82U2xwcWVvcWFxeXM3UzF0cmU0dWJyQ3c4VEZ4c2ZJeWNyUzA5VFYxdGZZMmRyaDR1UGs1ZWJuNk9ucThmTHo5UFgyOS9qNSt2L0VBQjhCQUFNQkFRRUJBUUVCQVFFQUFBQUFBQUFCQWdNRUJRWUhDQWtLQy8vRUFMVVJBQUlCQWdRRUF3UUhCUVFFQUFFQ2R3QUJBZ01SQkFVaE1RWVNRVkVIWVhFVElqS0JDQlJDa2FHeHdRa2pNMUx3RldKeTBRb1dKRFRoSmZFWEdCa2FKaWNvS1NvMU5qYzRPVHBEUkVWR1IwaEpTbE5VVlZaWFdGbGFZMlJsWm1kb2FXcHpkSFYyZDNoNWVvS0RoSVdHaDRpSmlwS1RsSldXbDVpWm1xS2pwS1dtcDZpcHFyS3p0TFcydDdpNXVzTER4TVhHeDhqSnl0TFQxTlhXMTlqWjJ1TGo1T1htNStqcDZ2THo5UFgyOS9qNSt2L2FBQXdEQVFBQ0VRTVJBRDhBb2FaK3lUNGw4UFdyM01MWmtVWndLNDI0ZlZORTFsckhWSW1Sa09Nc0svUit5aHZCZHVrOFk4ZysxZkhuN1ptakxwbXFSWE5pcXBJLzN0dGZsR1o1WlRsU2Mrdm1mcDJBeDgxVjVPaDVScSt2eFJRRmNncVJnbXZrejQwMjBSMVY1b0YrVmprbXZWTlMxbTRsVVc0a0xPZXBGZVovRWkyWVdRRG5MZXRUdy9obGdheWQ5WkY1NUw2MVJkbG9qOW92RTN4cjBmVHJOekV3ZVhIQzE4TWZ0Si9FcTg4UkxjWExSc0F1ZG9yNk04ZmVCb2JhOTNRc1dBN0N2S1BHL2hTejFTeWEza3RTek1NWksxODlXenlwaU1VcU9LVm94M3Nqc29aZENuUmM4Tzd5ZmMrUGZBVjFjNmpjM0UxekNTdVRoalhPZkZ2VTdkSXZLQUFmTmZRL2lEd3BINFcwMlJiYTBLOEU1QzE4Zy9FcStudk5hbFdSR1FLZWhGZlc1Ui93b1l0NGlNZVdLMlBLeldmMUxCcWhLVjVNL1hyVWZHTVZuZm1TNXhMSDZHdVg4Uy9GRFFTZ1AyZFF5OWdPdGVmNnhlVHlBN3BXYjZtdU52RkVqbmNOMzFyNHVoWG1wdHUxbjVIcVRweFVWWTdMeEo4UzlEMWUyYUw3RXVTTVp4WHluOFNmaC9Gcit0UzNOckh0UmpuQUZlM3RheGY4OHhUVFp3RURNUy9sWDB0TE9LdEdQTEJXUjVGVEFVNnI1cGFzLzlrPSI+Cgk8L2ltYWdlPgo8L3N2Zz4= 32w",
+                            "url": "https://files.kick.com/images/subcategories/246/banner/aed1856e-a4c2-4d66-9e6d-439db331d922"
+                        },
+                        "category": {
+                            "id": 3,
+                            "name": "Music",
+                            "slug": "music",
+                            "icon": "\ud83c\udfb9"
+                        }
+                    }
+                ],
+                "can_host": true,
+                "user": {
+                    "id": 1118182,
+                    "username": "aeroverra",
+                    "agreed_to_terms": true,
+                    "email_verified_at": "2023-02-18T23:26:52.000000Z",
+                    "bio": "AeroBot Beta - Kick.com Exclusive | Stream Deck  | Chrome | Alerts | TTS",
+                    "country": "",
+                    "state": "",
+                    "city": "",
+                    "instagram": "",
+                    "twitter": "",
+                    "youtube": "",
+                    "discord": "",
+                    "tiktok": "",
+                    "facebook": "",
+                    "profile_pic": "https://files.kick.com/images/user/1118182/profile_image/conversion/10cd7ec9-d049-4b3b-8f77-18556b895191-fullsize.webp"
+                },
+                "chatroom": {
+                    "id": 1071903,
+                    "chatable_type": "App\\Models\\Channel",
+                    "channel_id": 1078798,
+                    "created_at": "2023-02-18T23:26:13.000000Z",
+                    "updated_at": "2025-02-13T23:46:31.000000Z",
+                    "chat_mode_old": "public",
+                    "chat_mode": "followers_only",
+                    "slow_mode": false,
+                    "chatable_id": 1078798,
+                    "followers_mode": false,
+                    "subscribers_mode": false,
+                    "emotes_mode": false,
+                    "message_interval": 0,
+                    "following_min_duration": 0
+                }
+            },
+            "timestamp": 1739499186.1303046
+        }
+    },
+    "recordwasbored": {
+        "viewers": "9"
+    },
+    "bigpuffer": {
+        "viewers": "2150"
+    },
+    "1554755585995902976": [
+        {
+            "content": "whats up femboys and femgirls.",
+            "id": "1890956881893474642",
+            "created-at": "Sun Feb 16 02:50:27 +0000 2025",
+            "url": "https://x.com/LunxHosting/status/1890956881893474642",
+            "user": {
+                "name": "LunxHosting",
+                "url": null,
+                "followers": 0
+            },
+            "media": {}
+        },
+        {
+            "content": "mrbreast where are you bro!?",
+            "id": "1890957227759996964",
+            "created-at": "Sun Feb 16 02:51:50 +0000 2025",
+            "url": "https://x.com/LunxHosting/status/1890957227759996964",
+            "user": {
+                "name": "LunxHosting",
+                "url": null,
+                "followers": 0
+            },
+            "media": {}
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+  "DATABASE": "twitter.json",
+  "DATABASE_description": "File to store Twitter data (tweets, user info)",
+
+  "CACHE_DURATION": 600,
+  "CACHE_DURATION_description": "How long (in seconds) to cache Twitch data before refreshing",
+
+  "USERNAME": "",
+  "USERNAME_description": "Your Twitter username (used for authentication to get tweets.)",
+
+  "PASSWORD": "",
+  "PASSWORD_description": "Your Twitter password (used for authentication to get tweets)",
+
+  "TWITCH_API_KEY": "",
+  "TWITCH_API_KEY_description": "API key for accessing the Twitch API https://rapidapi.com/kingsizeblock/api/gwyo-twitch",
+
+  "TWITTER_API_KEY": "",
+  "TWITTER_API_KEY_description": "API key for accessing the Twitter API https://rapidapi.com/omarmhaimdat/api/twitter154"
+}
