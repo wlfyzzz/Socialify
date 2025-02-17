@@ -1,21 +1,18 @@
 import requests
 from flask import jsonify
 from twikit import Client
+import twikit
 
 
-async def get_user_details(username, twitter_api_key):
-  print(f"[Twitter] Getting user with username {username}")
-  url = "https://twitter154.p.rapidapi.com/user/details"
-  payload = {"username": username}
-  headers = {
-      "x-rapidapi-key": twitter_api_key,
-      "x-rapidapi-host": "twitter154.p.rapidapi.com",
-      "Content-Type": "application/json",
-  }
-
-  response = requests.post(url, json=payload, headers=headers)
-
-  return response.json()
+async def get_user_details(user, username, password):
+  client = Client("en-US")
+  await client.login(auth_info_1=username, password=password, cookies_file="cookies.json")
+  try:
+    user = await client.get_user_by_screen_name(user)
+  except twikit.errors.UserUnavailable:
+    return {"detail": "User suspended"}
+  if user:
+    return {"user_id": user.id}
 
 
 async def get_tweets(user_id, username, password):
@@ -51,13 +48,14 @@ def process_tweet(tweet):
           "name": tweet.user.name,
           "url": tweet.user.url,
           "followers": tweet.user.followers_count,
+          "avatar": tweet.user.profile_image_url
       },
       "media": media_data,
   }
 
 
 def save_tweets(user_id, tweets, database):
-  from socialify.utils.file import load_data, save_data
+  from utils.file import load_data, save_data
 
   data = load_data(database)
 
@@ -78,25 +76,3 @@ def save_tweets(user_id, tweets, database):
   return {"new_tweets": new_tweets, "existing_tweets": existing_tweets}
 
 
-if __name__ == "__main__":
-  import asyncio
-
-  async def main():
-    twitter_username = "elonmusk"
-    twitter_api_key = "YOUR_TWITTER_API_KEY"
-    twitter_password = "YOUR_TWITTER_PASSWORD"
-    database_file = "data.json"
-
-    user_details = await get_user_details(twitter_username, twitter_api_key)
-    if user_details and "user_id" in user_details:
-      user_id = user_details["user_id"]
-      tweets = await get_tweets(user_id, twitter_username, twitter_password)
-      if tweets:
-        saved_tweets = save_tweets(user_id, tweets, database_file)
-        print(saved_tweets)
-      else:
-        print("Failed to retrieve tweets.")
-    else:
-      print("Failed to retrieve user details.")
-
-  asyncio.run(main())

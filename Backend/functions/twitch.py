@@ -76,14 +76,3 @@ def is_live_twitch(username, twitch_api_key, cache_duration, database):
   return {"live": {}}
 
 
-if __name__ == "__main__":
-  twitch_username = "ninja"
-  twitch_api_key = "YOUR_TWITCH_API_KEY"
-  cache_duration = 60
-  database_file = "data.json"
-
-  twitch_data = is_live_twitch(
-      twitch_username, twitch_api_key, cache_duration, database_file
-  )
-  print(twitch_data)
-

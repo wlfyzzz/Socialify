@@ -13,7 +13,4 @@
 
   "TWITCH_API_KEY": "",
   "TWITCH_API_KEY_description": "API key for accessing the Twitch API https://rapidapi.com/kingsizeblock/api/gwyo-twitch",
-
-  "TWITTER_API_KEY": "",
-  "TWITTER_API_KEY_description": "API key for accessing the Twitter API https://rapidapi.com/omarmhaimdat/api/twitter154"
 }

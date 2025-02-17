@@ -63,11 +63,3 @@ def get_tiktok_data(user_id, cache_duration, database):
   save_data(data, database)
   return tiktok_data
 
-
-if __name__ == "__main__":
-  tiktok_username = "therock"
-  cache_duration = 60
-  database_file = "data.json"
-
-  tiktok_data = get_tiktok_data(tiktok_username, cache_duration, database_file)
-  print(tiktok_data)

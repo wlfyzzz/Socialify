@@ -22,14 +22,13 @@ try:
   USERNAME = config["USERNAME"]
   PASSWORD = config["PASSWORD"]
   TWITCH_API_KEY = config["TWITCH_API_KEY"]
-  TWITTER_API_KEY = config["TWITTER_API_KEY"]
 except KeyError as e:
   print(open(".art", "r").read())
   print(f"Error occurred with config. {e} is not set, which is required.")
   exit(0)
 
 
-@app.route("/functions/twitch/<string:user_id>")
+@app.route("/twitch/<string:user_id>")
 async def twitch(user_id):
   return jsonify({
       "live": is_live_twitch(
@@ -38,26 +37,26 @@ async def twitch(user_id):
   })
 
 
-@app.route("/functions/kick/<string:user_id>")
+@app.route("/kick/<string:user_id>")
 async def kick(user_id):
   return jsonify(get_kick_data(user_id, CACHE_DURATION, DATABASE))
 
 
-@app.route("/functions/tiktok/<string:user_id>")
+@app.route("/tiktok/<string:user_id>")
 async def tiktok(user_id):
   return jsonify(get_tiktok_data(user_id, CACHE_DURATION, DATABASE))
 
 
-@app.route("/functions/user/<string:user_id>")
+@app.route("/user/<string:user_id>")
 async def user_api(user_id):
   return jsonify(await user(user_id))
 
 
 async def user(user_id):
-  return await get_user_details(user_id, TWITTER_API_KEY)
+  return await get_user_details(user_id, username=USERNAME, password=PASSWORD)
 
 
-@app.route("/functions/twitter/<string:user_id>")
+@app.route("/twitter/<string:user_id>")
 async def twitter_api(user_id):
   if not user_id.isdigit():
     info = await user(user_id)

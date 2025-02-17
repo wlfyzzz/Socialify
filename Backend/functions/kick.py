@@ -75,10 +75,3 @@ def get_kick_data(user_id, cache_duration, database):
   return {"user": kick_data, "live": kick_data["livestream"]}
 
 
-if __name__ == "__main__":
-  kick_username = "iceposeidon"
-  cache_duration = 60
-  database_file = "data.json"
-
-  kick_data = get_kick_data(kick_username, cache_duration, database_file)
-  print(kick_data)
